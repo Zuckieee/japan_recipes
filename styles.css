@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Sangha'; /* Название шрифта для использования */
+  src: url('/fonts/sangha.woff2') format('woff2'); /* Альтернативный файл */
+  font-weight: normal; /* Начертание: normal, bold, 300, 400 и т.д. */
+  font-style: normal; /* Стиль: normal, italic */
+}
 .header {
  padding: 18px 0;  
  border-bottom: 1px solid #e5e5e5;
@@ -440,12 +446,26 @@ h2{
         font-size: 2rem;
     }
 
-    .row,
+     .row,
     .matcha {
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
     }
-    
+    .row .text,
+    .matcha .text {
+        order: 1;
+        width: 100%;
+    }
+      .row img,
+    .matcha img {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
     .recipe-card {
         width: 45%;
     }
@@ -483,5 +503,19 @@ h2{
 
     .cta-buttons .btn {
         width: 100%;
+    }
+     .info-box {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .item {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+
+    .item:last-child {
+        border-bottom: none;
     }
 }

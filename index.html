@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <header class="header">
+    <div class="container header-inner">
+        <div class="logo">
+             <span>Икура</span>
+             <img src="images/Flower.png" alt="Икура">
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="nav" id="nav">
+            <a href="catalog.html">Рецепты</a>
+            <a>Популярное</a>
+            <a>Ингредиенты</a>
+            <a>О нас</a>
+        </nav>
+        <div class="search">
+            <img src="images/Search.png" alt="Поиск">
+        </div>
+    </div>
+</header>
+</header>
+<main>
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Полная <br> библиотека <br> японской кухни</h1>
+            <button class="btn">Смотреть</button>
+        </div>
+    </div>
+</section>
+<section class="popular">
+    <div class="container">
+    <h1>Популярные рецепты</h1>
+    <div class="recipes-grid">
+        <div class="recipe-card">
+            <div class="card-img-wrapper">
+            <img src="images\рамен.png">
+            <div class="overlay">
+                <span>Получить доступ по подписке</span> 
+            </div>
+            </div>
+            <p class="title">Тонкоцу рамен</p>
+            <p class="time">4 ч</p>
+        </div>
+
+        <div class="recipe-card">
+            <div class="card-img-wrapper">
+            <img src="images\оякодон.png">
+            <div class="overlay">
+                <span>Смотреть рецепт</span> 
+            </div>
+            </div>
+            <p class="title">Оякодон</p>
+            <p class="time">25 мин</p>
+        </div>
+
+        <div class="recipe-card">
+            <div class="card-img-wrapper">
+            <img src="images\данго.png">
+            <div class="overlay">
+                <span>Смотреть рецепт</span> 
+            </div>
+            </div>
+            <p class="title">Данго</p>
+            <p class="time">30 мин</p>
+        </div>
+
+        <div class="recipe-card">
+             <div class="card-img-wrapper">
+            <img src="images\тамаго.png">
+            <div class="overlay">
+                <span>Смотреть рецепт</span> 
+            </div>
+            </div>
+            <p class="title">Тамаго сандо</p>
+            <p class="time">20 мин</p>
+        </div>
+    </div>
+    </div>
+</section>
+<div class="container">
+        <div class="row">
+         <img src="images\Rectangle 2.png"
+            width="450px">
+            <div class="text">
+             <h1>40+ быстрых рецептов</h1>
+        <p>Мечтаете освоить японскую кухню, но не знаете, с чего начать?
+            Мы собрали для вас уникальную коллекцию из более чем
+            40 лёгких и быстрых рецептов.</p>
+            <button class="btn">Смотреть</button><br>
+            </div>
+        </div>
+</div>
+<div class="container">
+        <div class="matcha">
+            <div class="text">
+            <h1>10 лучших десертов с матчей</h1>
+        <p>Ищете, как выйти за рамки классического латте с матчей?
+            В нашей подборке — 10 проверенных рецептов, которые помогут 
+            вам легко и с пользой интегрировать матчу в ежедневное меню.</p>
+            <button class="btn">Смотреть</button><br>
+            </div>
+            <img src="images\Rectangle 10.png"
+            width="450px">
+        </div>
+</div>
+    </main>
+     
+ <footer class="footer">
+    <div class="container footer-inner">
+        <a>Политика конфиденциальности</a>
+        <a>Контакты</a>
+        <a>О нас</a>
+        <a>Редакция</a>
+        <a href="mailto:ikura@recipes.com">ikura@recipes.com</a>
+    </div>
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    const burger = document.getElementById("burger");
+    const nav = document.getElementById("nav");
+
+    burger.addEventListener("click", function() {
+        nav.classList.toggle("active");
+    });
+
+});
+</script>
+</body>
+</html>

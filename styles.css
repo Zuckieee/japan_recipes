@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Sangha'; /* Название шрифта для использования */
-  src: url('/fonts/sangha.woff2') format('woff2'); /* Альтернативный файл */
-  font-weight: normal; /* Начертание: normal, bold, 300, 400 и т.д. */
-  font-style: normal; /* Стиль: normal, italic */
+  src: url('fonts/Sangha.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 .header {
  padding: 18px 0;  

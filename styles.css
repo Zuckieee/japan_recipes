@@ -20,12 +20,20 @@
     gap: 10px;
     font-size: 26px;
     font-weight: light;
+    text-decoration: none;
+    color: black;
 }
 .logo img {
     height: 35px;
 }
 .logo span {
     font-size: 24px;
+}
+.logo:visited,
+.logo:active,
+.logo:hover {
+    color: black;
+    text-decoration: none;
 }
 .burger {
     display: none;

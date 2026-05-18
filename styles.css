@@ -71,11 +71,11 @@ h1{
   font-style: normal;
 }
 body{
-  font-family: 'Sangha', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;  
-margin: 0 auto;  
+  margin: 0 auto;  
 }
 .breadcrumbs {
     padding: 12px 0;

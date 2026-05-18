@@ -171,8 +171,14 @@ h2{
 .recipe-card {
     width: 220px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-
+.recipe-card:visited,
+.recipe-card:active {
+    color: black;
+    text-decoration: none;
+}
 .recipe-card img {
     width: 100%;
     border-radius: 10px;
@@ -211,8 +217,12 @@ h2{
 .recipe-card .title {
     margin: 8px 0 4px;
     font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
 }
-
+.recipe-card:hover .title {
+    text-decoration: underline;
+}
 .recipe-card .time {
     color: #777;
     font-size: 13px;

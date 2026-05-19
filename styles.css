@@ -525,7 +525,14 @@ h2{
         grid-template-columns: 1fr; 
     }
     .slide {
-        height: 250px;
+       width: 100%;
+       display: none;
+    }
+    .slide-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
     }
      .recipe-header {
         flex-direction: column;

@@ -416,9 +416,6 @@ h2{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-.recipe-card:hover .overlay {
-    opacity: 1;
-}
 .slide-overlay-wrapper:hover .slide-overlay,
 .slide-overlay-wrapper:active .slide-overlay {
     opacity: 1;

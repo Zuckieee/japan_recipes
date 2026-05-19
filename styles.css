@@ -224,26 +224,15 @@ h2{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    text-align: center;
 }
 
+.subscribe-btn {
+    display: inline-block;
+}
 .overlay-content span {
     display: block;
 }
-.subscribe-btn {
-    background: #B74753;
-    color: white;
-    text-decoration: none;
 
-    padding: 10px 20px;
-    border-radius: 8px;
-
-    transition: 0.3s;
-}
-
-.subscribe-btn:hover {
-    background: #8E2E39;
-}
 .recipe-card .title {
     margin: 8px 0 4px;
     font-weight: bold;

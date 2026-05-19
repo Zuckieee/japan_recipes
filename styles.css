@@ -218,6 +218,27 @@ h2{
 .card-img-wrapper:active .overlay {
     opacity: 1;
 }
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscribe-btn {
+    background: #B74753;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+    background: #8E2E39;
+}
 .recipe-card .title {
     margin: 8px 0 4px;
     font-weight: bold;

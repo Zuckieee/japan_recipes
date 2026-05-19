@@ -416,10 +416,11 @@ h2{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
-.slide-overlay-wrapper:hover .slide-overlay {
+.slide-overlay-wrapper:hover .slide-overlay,
+.slide-overlay-wrapper:active .slide-overlay {
     opacity: 1;
 }
+
 @keyframes fade {
     from { opacity: 0; }
     to { opacity: 1; }

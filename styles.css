@@ -401,29 +401,6 @@ h2{
     border-radius: 12px;
 }
 
-.slide-overlay-wrapper {
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-.slide-overlay {
-    position: absolute;
-    inset: 0;
-
-    background: rgba(255,255,255,0.7);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.slide-overlay-wrapper:hover .slide-overlay,
-.slide-overlay-wrapper:active .slide-overlay {
-    opacity: 1;
-}
 
 @keyframes fade {
     from { opacity: 0; }
